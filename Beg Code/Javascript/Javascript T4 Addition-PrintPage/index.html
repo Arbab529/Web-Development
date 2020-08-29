@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginners Javascript </title>
+</head>
+<body>
+   <h1>Addition + Print Page</h1>
+   <button id="resize" onclick="btnclick()">Click Me Ad two Numbers</button>
+   <br><br>
+   <script>
+        document.write("Addition of Two Numbers =  "+ (5+2));
+    </script>
+
+    <p id="add"></p>
+    <button type="button" onclick="printp()">print Page</button>
+
+    <script>
+        function btnclick()
+        {
+            document.getElementById('add').innerHTML=5+2;
+            window.alert("Addition of 5 + 2 = "+(5+2));
+        };  
+        function printp()
+        {
+            window.print();
+        }
+    </script>
+</body>
+</html>

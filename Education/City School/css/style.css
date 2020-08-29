@@ -1,0 +1,12 @@
+header nav a{
+    font-size: 1.1em !important;
+    cursor: pointer;
+}
+.flex-grow h2,.Principal-name{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+footer a{
+    cursor: pointer;
+    font-size: 1em;
+}

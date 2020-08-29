@@ -1,0 +1,416 @@
+
+$colors: (
+    logocolor1:rgb(44,44,44),
+    logocolor2: #d80707,
+    bodycolor:#dbd9d9,
+    darkColorLight: lighten(rgb(44, 44, 44), 40%),
+    logocolor2dark:darken(#d80707,10%),
+  );
+
+  @function color($color-name) {
+    @return map-get($colors, $color-name);
+  }
+
+$desktop: 850px;
+@mixin desktop {
+  @media (max-width:#{$desktop}) {
+    @content;
+  }
+}
+
+body,html{
+    margin: 0;
+    padding :0;
+}
+body{
+    background-color: color(bodycolor);
+    font-family: 'Raleway', sans-serif;
+    
+    header{
+
+        width: 100%;
+        
+        .bg-light{
+            box-shadow: 0px 2px 10px rgb(211, 211, 211);
+        }
+
+        .container{
+            .navbar-brand{
+                font-size: 2em;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                color: color(logocolor1);
+                span{
+                    color: color(logocolor2);
+                }
+            }
+            .navbar-nav{
+                .nav-item1{
+                    font-size: 1.1em;
+                    color: color(logocolor1);
+                }
+                .nav-item1:hover{
+                    color: color(logocolor2);
+                    font-size: 1.2em;
+                    transition: 0.3s ease;
+                }
+                .nav-item-active{
+                    font-size: 1.1em;
+                    color: color(logocolor2);
+                    font-weight: bold;
+                }
+                .nav-item-active:hover{
+                    color: color(logocolor2);
+                    
+                }
+                .nav-item{
+                    font-size: 1.1em;
+                    color: color(logocolor1);
+                }
+                .nav-item:hover{
+                    border-bottom: 1px solid color(logocolor2);
+                    cursor: text;
+                    color: color(logocolor2);
+                    transition: 0.3s ease;
+                    font-size: 1.2em;
+                }         
+            }
+            .navbar-toggler{
+                outline: none;
+                border: none;
+            }
+        }    
+    }
+
+    //End Header
+    .sliding-image-section{
+        .carousel-indicators li{
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            background-color: transparent;
+            border: 2px solid white;
+            margin-right: 10px;
+            margin-bottom: 70px;
+        }
+        .carousel-inner{
+            .carousel-item{
+                margin-top: 150px;
+                margin-bottom: 30px;
+            }
+            .strip{
+                background-color: color(logocolor2);
+                width: 2em;
+                height: 4em;
+                margin-top: -120px;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+            }
+            .content1,.content2,.content3{
+                    width: 100%;
+                    margin: 0 auto;
+                    text-align: center;
+                    height: auto;
+                    background-color: color(logocolor1);
+                    padding-top: 120px;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    padding-bottom: 150px;
+                    box-sizing: border-box;
+                    border-radius: 10px;
+                    box-shadow: 5px 5px 10px gray;
+                   
+                    h2{
+                        margin-top: 100px;
+                        color: color(logocolor2);
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        padding-right: 10px;
+                        text-align: center;
+                        @include desktop{
+                            font-size: 1.4em !important;
+                            font-weight: bold;
+                        }
+                    }
+                    p{
+                        color: white;
+                        margin-top: 50px;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: color(logocolor2);
+                        font-weight: bold;
+                    }
+            }
+        }
+    }
+//section End
+    .serviceslabel{
+        margin-top: 140px;
+        div 
+        {
+            h3{
+                text-align: center;
+                color: color(logocolor2);
+            }
+         }
+    }
+
+//Section End
+
+.services{
+    margin-top: 50px;
+    .service-img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: color(logocolor1);  
+
+        margin: 0 auto;
+        i{
+            font-size: 2em;
+            color: color(logocolor2);
+        }
+        .fa-laptop-code{
+
+            margin-top: 40px;
+            margin-left: 40px;
+        }
+        .fa-search{
+            margin-top: 43px;
+            margin-left: 45px;
+        }
+    }
+    h3{
+        color: color(logocolor1);
+        font-weight: bold;
+    }
+    h3,p{
+        margin-top: 20px;
+        text-align: center;
+
+    }
+    p{
+        a{
+            color: color(logocolor2);
+            font-weight: bold;
+        }
+    }
+
+}
+//Section End
+
+.Protofolio{
+    background-color: color(logocolor1);
+    height: auto;
+    width: 100%;
+    margin-bottom: 60px;
+    padding-bottom: 100px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    .container{
+        .Row-1{
+            padding-top: 120px;
+            color: color(logocolor2);
+            display: flex;
+            justify-content: space-between;
+            p{
+                font-size: 1.6em;
+                font-weight: bold;
+                
+            }            
+        }
+        .Row-2{
+            .protofolio-img{
+                width: 100%;
+                height: 200px;
+                background-color: color(darkColorLight);
+                margin-bottom: 40px;
+                border: 8px solid color(bodycolor);
+                text-align: center;
+                margin-top: 40px;
+            }
+            .fa-camera,.fa-eye{
+                font-size: 2em;
+                color: color(logocolor1);
+                margin-top: 70px;
+                cursor: pointer;
+               
+            }
+            .fa-eye{
+                    border: 2px solid lightgray;
+                    padding: 5px 20px;
+                    font-size: 1.3em;
+                    color: color(logocolor2dark);
+            }
+            h5{
+                color: color(logocolor2);
+                font-weight: bold;
+            }
+            p{
+                color: lightgray;
+                text-align: justify;
+            }
+            button{
+                margin-top: 20px;
+                margin-bottom: 40px;
+                background-color: transparent;
+                border: 2px solid lightgray;
+                padding: 5px 30px;
+                font-weight: bold;
+                border-radius: 5px;
+                outline: none;
+                a{
+                    text-decoration: none;
+                    color: color(logocolor2);
+                }
+            }
+            button:hover{
+                background-color: lightgray;
+            }
+            
+        }
+        
+    }
+}
+//Section End
+
+.testiomonials{
+margin-bottom: 120px;
+    .container{
+
+        div{
+            text-align: center;
+            h2{
+                color: color(logocolor2);
+                font-weight: bold;
+                margin-bottom: 30px;
+            }
+            .quote{
+                margin-bottom: 40px;
+                color: color(logocolor1);
+                font-size: 1.2em;
+            }
+            h6{
+                color: color(logocolor2);
+                font-weight: bold;
+                margin-bottom: 30px;
+                span{
+                    color: color(logocolor1);
+                }
+            }
+            div{
+                
+                align-items: center;
+                .profile{
+                    width: 50px;
+                    height: 50px;
+                    background-color: color(logocolor1);
+                    border-radius: 50%;
+                }
+                .profile:nth-child(2){
+                    width: 80px;
+                    height: 80px;
+                    background-color: color(logocolor2);
+                    border-radius: 50%;
+                }
+                .profile-bar{
+                    margin-top: 10px;
+                    width: 30px;
+                    height: 5px;
+                    background-color: color(logocolor1);
+
+
+                    .fa-sort-up{
+                        font-size: 2em;
+                        margin-top: -9px;
+                        color: color(logocolor2);
+                    }
+                }
+                .profile-bar:nth-child(2){
+                    background-color: color(logocolor2);
+                    width: 50px;
+                    height: 5px;
+                   
+                }
+            }
+        }
+    }
+}
+//Section End
+footer{
+    background-color: color(logocolor1);
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    .container{
+        .row{
+            h4{
+                margin-top: 40px;
+                margin-bottom: 40px;
+                color: color(logocolor2);
+                font-weight: bold;
+            }
+            .description{
+                color: lightgray;
+                margin-top: 20px;
+            }
+            p{
+                color: lightgray;
+            }
+            hr{
+                border-color: lightgray;
+                border-width: 90%;
+                text-align: center;
+            }
+            input{
+                width: 100%;
+                outline: none;
+                padding: 5px 10px;
+            }
+            button{
+                width: 200;
+                background-color:transparent;
+                color: color(logocolor2);
+                padding: 8px 30px;
+                border: 2px solid lightgray;
+                margin-top: 30px;
+                outline: none;
+                border-radius: 5px;
+                font-weight: bold;
+            }
+            button:hover{
+                background-color:lightgray;
+
+            }
+            .box{
+                width: 100px;
+                height: 70px;
+                background-color: lightgray;
+            }
+            .fa-phone,.fa-tty,.fa-mail-bulk{
+                color: color(logocolor2);
+                font-size: 1.5em;
+                margin-top: 12px;
+                
+            }
+            
+            span{
+                color: lightgray;
+                font-size: 1em;
+            }
+            .fa-copyright{
+                color: color(logocolor2);
+                margin-top: 12px;
+                .footerlogo1{
+                    color: lightgray;
+                }
+                .footerlogo1{
+                    color: color(logocolor2);
+                }
+                
+            }
+        }
+    }
+}
+
+}

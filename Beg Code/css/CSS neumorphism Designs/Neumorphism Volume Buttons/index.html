@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphism Volume Buttons</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(227, 231, 235);
+        }
+
+        .wrapper {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn {
+            height: 50px;
+            width: 100px;
+            text-align: center;
+            box-sizing: border-box;
+            box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.7), 5px 5px 10px rgba(0, 0, 0, 0.3);
+            margin-right: 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #888;
+            cursor: pointer;
+        }
+
+        .btn:nth-child(1) {
+            width: 50px;
+            color: red;
+            border-radius: 50%;
+            font-size: 2.5em;
+            padding-top: 0;
+        }
+
+        .btn:nth-child(2) {
+            width: 250px;
+            border-radius: 50px;
+            padding-top: 12px;
+        }
+
+        .btn:nth-child(3) {
+            width: 50px;
+            color: rgb(5, 196, 5);
+            border-radius: 50%;
+            font-size: 2.5em;
+            padding-top: 4px;
+        }
+
+        .btn:nth-child(1):hover,
+        .btn:nth-child(3):hover {
+            box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 0.7), inset 5px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class=" btn">-</div>
+        <div class=" btn">50%</div>
+        <div class=" btn">+</div>
+    </div>
+</body>
+
+</html>

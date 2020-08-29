@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bodycolor:#CED8E1;
+    --darkcolor:#102B3E ;
+    --lightcolor:#6964E3 ;
+   }
+body{
+    background-color: var(--bodycolor);
+}
+header .row{
+    margin: 0 auto;
+}
+.right-header-button{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: var(--darkcolor);
+}
+.upper-lines div{
+width: 30px;
+height: 5px;
+border-radius: 10px;
+background-color: var(--lightcolor);
+}
+.lower-lines div{
+width: 40px;
+height: 5px;
+border-radius: 10px;
+background-color: var(--lightcolor);
+}
+
+   /* --------------------------------------------- */
+
+.section1{
+background-color: var(--darkcolor);
+width: 100%;
+height: auto;
+}
+.section1-height-margins{
+ margin-top: 80px !important;
+ margin-bottom: 80px !important;
+}
+.section1-lines div{
+ height: 7px;
+ width: 50px;
+ background-color: var(--lightcolor);
+ border-radius: 10px;
+}
+.section1-lines div:nth-child(2){
+height: 7px;
+width: 90px;
+background-color: var(--lightcolor);
+border-radius: 10px;
+
+}
+.section1-line1 div{
+height: 4px;
+width: 50px;
+background-color: var(--lightcolor);
+border-radius: 10px;
+}
+.section1-line2 div{
+height: 4px;
+width: 40px;
+background-color: var(--lightcolor);
+border-radius: 10px;
+}
+.section1-button{
+height: 30px;
+width: 120px;
+background-color: var(--lightcolor);
+border-radius: 40px;
+}
+
+/* ------------------------------------------------------------------- */
+
+.section2-lines{
+
+}
+.section2-lines div{
+    height: 7px;
+    width: 60px;
+    background-color: var(--darkcolor);
+    border-radius: 10px;
+    
+}
+.section2-lines div:nth-child(2){
+    height: 7px;
+    width: 30px;
+    background-color: var(--darkcolor);
+    border-radius: 10px;
+}
+
+.left-big-boxes div{
+    width: 300px;
+    height: 140px;
+    background-color: var(--lightcolor);
+    border-radius: 10px;
+     margin: 0 auto;
+}
+
+.slick-boxes{
+    background-color: var(--lightcolor);
+    width: 50px !important;
+    height: 50px;
+    border-radius: 5px;
+  }
+  .slideboxes{
+    width: 250px;
+    margin: 0 auto;
+    
+  }
+
+.box{
+    height: 90px;
+    width: 90px;
+    background-color: var(--lightcolor);
+    border-radius: 10px;
+}
+.R1 div{
+    height: 6px;
+    width: 50px;
+    background-color: var(--darkcolor);
+    border-radius: 10px;
+}
+.R1 div:nth-child(2){
+    height: 6px;
+    width: 30px;
+    background-color: var(--darkcolor);
+    border-radius: 10px;
+}
+
+.R2 div{
+    height: 4px;
+    width: 40px;
+    background-color: var(--darkcolor);
+    border-radius: 10px;
+}
+.R2 div:nth-child(2){
+    height: 4px;
+    width: 30px;
+    background-color: var(--darkcolor);
+    border-radius: 10px;
+}
+.R3 div{
+    height: 4px;
+    width: 40px;
+    background-color: var(--darkcolor);
+    border-radius: 10px;
+}
+.R3 div:nth-child(2){
+    height: 4px;
+    width: 30px;
+    background-color: var(--darkcolor);
+    border-radius: 10px;
+}
+.left div{
+    height: 4px;
+    width: 20px;
+    background-color: var(--darkcolor);
+    border-radius: 10px;
+}
+.right div{
+    height: 4px;
+    width: 20px;
+    background-color: var(--darkcolor);
+    border-radius: 10px;
+}
+
+/*---------------------------------------------------------------------*/
+
+.lightbox div{
+height: 200px;
+background-color: var(--lightcolor);
+
+}
+.darkbox div {
+    height: 200px;
+    background-color: var(--darkcolor);
+    
+}
+
+/* --------------------------------------------------------------------------------- */
+.section3-lines div{
+    height: 7px;
+    width: 30px;
+    background-color: var(--darkcolor);
+    border-radius: 10px;
+}
+.section3-lines div:nth-child(2){
+    height: 7px;
+    width: 60px;
+    background-color: var(--darkcolor);
+    border-radius: 10px;
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+.section5-lines div{
+    height: 7px;
+    width: 60px;
+    background-color: var(--darkcolor);
+    border-radius: 10px;
+}
+.section5-lines div:nth-child(2){
+    height: 7px;
+    width: 30px;
+    background-color: var(--darkcolor);
+    border-radius: 10px;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: var(--lightcolor);
+    margin:0 auto;
+}
+
+.section6-lines-top div{
+    height: 7px;
+    width: 60px;
+    background-color: var(--lightcolor);
+    border-radius: 10px;
+}
+.section6-lines div{
+    height: 5px;
+    width: 30px;
+    background-color: var(--lightcolor);
+    border-radius: 10px;
+}
+.section6-lines div:nth-child(2){
+    height: 5px;
+    width: 60px;
+    background-color: var(--lightcolor);
+    border-radius: 10px;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+footer{
+    background-color: var(--darkcolor);
+    height: auto;
+    width: 100%;
+}
+.footerbox{
+    width: 20px;
+    height: 20px;
+    background-color: var(--lightcolor);
+    border-radius: 3px;
+}
+.footerline{
+    width: 30px;
+    height: 3px;
+    background-color: var(--lightcolor);
+    border-radius: 3px;
+}
+.footerlines{
+    width: 30px;
+    height: 3px;
+    background-color: var(--lightcolor);
+    border-radius: 3px;
+}
+.footerlines:nth-child(1){
+    width: 50px;
+    height: 4px;
+    background-color: var(--lightcolor);
+    border-radius: 3px;
+}
+.footerlines:nth-child(2){
+    width: 20px;
+    height: 3px;
+    background-color: var(--lightcolor);
+    border-radius: 3px;
+}
+.footerlines:nth-child(3){
+    width: 40px;
+    height: 3px;
+    background-color: var(--lightcolor);
+    border-radius: 3px;
+}

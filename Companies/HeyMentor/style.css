@@ -1,0 +1,168 @@
+
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	color: #153b51;
+}
+a{
+	color: #153b51;
+	text-decoration: none !important;
+	border-bottom: 1px solid #153b51;
+	padding-bottom: 5px;
+	opacity: .9;
+}
+a:hover{
+	color: #153b51;
+	text-decoration: none !important;
+	border-bottom: 1px solid #153b51;
+	opacity: 1;
+	cursor: pointer;
+}
+.bg-light{
+	background-color: transparent !important;
+	-webkit-box-shadow: 0px 3px 10px lightgrey;
+	        box-shadow: 0px 3px 10px lightgrey;
+
+}
+.navbar-brand{
+	color:#6A9D2E !important;
+	font-size: 25px !important;
+	border:none;
+
+}
+.navbar-toggler{
+	border:none;
+}
+.navbar-toggler:focus, .navbar-toggler:active{
+	border:none;
+	outline: none;
+}
+
+.nav-link{
+	color: #153b51 !important;	
+	opacity: 0.8;
+	border:none;
+	}
+.nav-link:hover{
+	opacity: 1;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+	border:none;
+}
+.btn-outline-success{
+	background-color: #6A9D2E !important;
+	border: none ;
+	color: white !important;
+	opacity: 0.8;
+	font-size: 14px;
+	border-radius: 2px;
+}
+.nav-item{
+	margin-right: 16px;
+}
+.btn-outline-success:hover{
+	opacity: 1;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+
+}
+.section1{
+	margin-top: 130px;
+	margin-bottom: 130px;
+}
+.header-heading{
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 47px;
+}
+.middle-section{
+	padding: 100px 0px;
+	height: auto;
+	background-color: #6A9D2E;
+	width: 100%;
+	color: white !important;
+}
+.carousel-item h3{
+	font-size: 20px !important;
+	font-weight: bold; 
+	margin:15px 0px 10px;
+}
+.carousel{
+	height: auto;
+}
+.carousel-inner{
+	width: 90%;
+	margin:0 auto;
+}
+.carousel-indicators li{
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 2px solid #153b51;
+	margin-right: 10px;
+}
+.carousel-indicators li:last-child{
+
+	margin-right: 0px;
+}
+.carousel-indicators .active{
+
+	background-color: #153b51;
+}
+.carousel-indicators {
+
+	margin-bottom: -6%;
+}
+.join-section{
+	padding:100px 0px;
+}
+.fas{
+	margin-right: 10px;
+}
+
+footer{
+	background-color: #153b51;
+	padding:70px 0px 20px;
+	color: white; 
+}
+footer ul li{
+	opacity: 0.8;
+}
+footer ul li:hover{
+	opacity: 1;
+	color: white;
+	cursor: pointer;
+}
+footer ul {
+	list-style: none;
+}
+footer li {
+	margin-bottom: 10px;
+}
+footer hr{
+	border: 0.5px solid rgba(255,255,255,0.6);
+}
+footer a i{
+	margin-left: 20px;
+}
+footer h4{
+	margin-bottom: 20px;
+}
+.footer-bottom-bar-items li{
+	margin-right: 15px;
+}
+
+@media screen and (min-width: 992px)
+{
+	.header-heading{
+	font-size: 48px;
+	}
+	.join-section a{
+		font-size: 20px;
+	}
+}

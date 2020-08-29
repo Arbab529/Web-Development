@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphism</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #fdfdfd;
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .btn {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 3.5em;
+            font-weight: bold;
+            margin: 5px;
+            color: rgb(100, 183, 189);
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            box-shadow: -5px -5px 20px rgba(253, 253, 253, 0.7), 5px 5px 20px rgb(0, 0, 0, 0.2);
+            transition: all 0.7s ease 0.1s;
+
+
+        }
+
+        .btn:hover {
+
+            box-shadow: inset -5px -5px 20px rgba(253, 253, 253, 0.7), inset 5px 5px 20px rgb(0, 0, 0, 0.2);
+            cursor: pointer;
+            color: rgb(13, 105, 141);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="btn">A</div>
+        <div class="btn">R</div>
+        <div class="btn">B</div>
+        <div class="btn">A</div>
+        <div class="btn">B</div>
+    </div>
+</body>
+
+</html>

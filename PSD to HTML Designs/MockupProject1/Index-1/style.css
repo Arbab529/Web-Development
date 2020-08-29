@@ -1,0 +1,381 @@
+*{
+	margin:0;
+	padding:0;
+}
+:root{
+ --color1:#10334d ;
+ --color2:#FFCA26 ;
+}
+body{
+	background-color: #f8f8f8;
+}
+/*#27869E;
+#0B1D2A;*/
+
+
+.bg-light{ 
+	background: var(--color1) !important;
+}
+.navbar1-item-color{
+	width: 40px;
+	height: 5px;
+	background-color: var(--color2) !important;
+	margin-left: 10px;
+}
+.navbar1-item-color:last-child{
+	margin-left: 10px;
+}
+.navbar2{
+	background-color: transparent !important;
+}
+.navbar2-logo{
+	width: 90px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: var(--color2) !important;
+}
+.navbar2-item-color{
+	width: 60px;
+	height: 5px;
+	background-color: var(--color2) !important;
+	margin-left: 10px;
+}
+.navbar2-item-color:last-child{
+	margin-left: 10px;
+}
+.section-1{
+	background-color:  var(--color1);
+	
+}
+
+.section-1-row-1{
+	margin-top: 60px;
+	width: 60px;
+	height: 8px;
+	border-radius: 5px;
+	background-color:var(--color2) !important;
+}
+.section-1 ul li{
+	list-style-type: none;
+}
+.section-1-row-2,.section-1-row-3, .section-1-row-4{
+	width: 30px;
+	height: 4px;
+	border-radius: 5px;
+	background-color: var(--color2) !important;
+}
+.section-1-row-5{
+	width: 90px;
+	height: 20px;
+	border-radius: 20px;
+	background-color: var(--color2) !important;
+}
+
+.section-2 .container{
+	border:2px solid var(--color1);
+	border-radius: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.section-2-row-1{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 40px;
+	height: 8px;
+	border-radius: 5px;
+	background-color:var(--color2) !important;
+}
+.section-2-row-2{
+	width: 150px;
+	height: 120px;
+	border-radius: 10px;
+	background-color:var(--color2) !important;
+}
+.section-2 ul li{
+	list-style-type: none;
+}
+.section-2-row-3{
+	width: 50px;
+	height: 8px;
+	border-radius: 5px;
+	background-color:var(--color2) !important;
+}
+
+.section-3{
+	background-color: var(--color1);
+
+}
+
+.section-3 .container{
+	border-radius: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.section-3-row-1{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 40px;
+	height: 8px;
+	border-radius: 5px;
+	background-color:var(--color2) !important;
+}
+.section-3-row-2{
+	width: 150px;
+	height: 120px;
+	border-radius: 50%;
+	background-color:var(--color2) !important;
+}
+.section-3 ul li{
+	list-style-type: none;
+}
+.section-3-row-3{
+	width: 50px;
+	height: 8px;
+	border-radius: 5px;
+	background-color:var(--color2) !important;
+}
+.centerbox-section3{
+	border:2px solid var(--color2);
+	border-radius: 4px;
+}
+
+.section-4-row-1{
+	margin-top: 60px;
+	width: 80px;
+	height: 8px;
+	border-radius: 5px;
+	background-color:var(--color2) !important;
+}
+.section-4 ul li{
+	list-style-type: none;
+}
+
+
+.section-5-box-border{
+	height: auto;
+	border-radius: 9px;
+	border:2px solid var(--color2);
+}
+.section-5-box-inner-box{
+	width: 95%;
+	height: 150px;
+	margin:auto;
+	border-radius: 9px;
+	background-color: var(--color1);
+}
+.text-left-R1{
+	width: 70px;
+	height: 7px;
+	border-radius: 5px;
+	background-color: var(--color1);
+}
+.text-right-R2{
+	width: 35px;
+	height: 7px;
+	border-radius: 5px;
+	background-color: var(--color1);
+}
+.section-5-box-R1,.section-5-box-R2,.section-5-box-R3,.section-5-box-R4{
+	width: 95%;
+	margin:auto;
+}
+.text-left-R2{
+	width: 70px;
+	height: 5px;
+	border-radius: 5px;
+	background-color: var(--color1);
+}
+.text-left-R3{
+	width: 45px;
+	height: 5px;
+	border-radius: 5px;
+	background-color: var(--color1);
+}
+.text-left-R4{
+	width: 38px;
+	height: 5px;
+	border-radius: 5px;
+	background-color: var(--color1);
+}
+.box-footer{
+	width: 100%;
+	margin:auto;
+	border-top: 2px solid var(--color1);
+}
+.box-footer-container{
+	width: 95%;
+	margin:auto;
+}
+.box-footer-left{
+	width: 45px;
+	height: 20px;
+	border-radius: 5px;
+	background-color: var(--color1);
+}
+.box-footer-right{
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+	background-color: var(--color1);
+}
+.section-6-right{
+	background-color: var(--color1);
+	height: auto;
+}
+.section-6-left{
+	background-color: var(--color2);
+	height: auto;
+}
+
+
+.section-6-box-R1{
+	width: 80%;
+	margin:auto;
+}
+.section-6-text-left-R1
+{
+	width: 60px;
+	height: 12px;
+	border-radius: 5px;
+	background-color: var(--color2);
+}
+.section-6-text-right-R1{
+	width: 90px;
+	height: 12px;
+	border-radius: 5px;
+	background-color: var(--color2);
+}
+.section-6-text-left-R2
+{
+	width: 50px;
+	height: 7px;
+	border-radius: 5px;
+	background-color: var(--color2);
+}
+.section-6-text-right-R2{
+	width: 40px;
+	height: 7px;
+	border-radius: 5px;
+	background-color: var(--color2);
+}
+
+.section-6-text-left-R3
+{
+	width: 60px;
+	height: 7px;
+	border-radius: 5px;
+	background-color: var(--color2);
+}
+.section-6-text-right-R3{
+	width: 30px;
+	height: 7px;
+	border-radius: 5px;
+	background-color: var(--color2);
+}
+
+.section-6-text-left-R4
+{
+	width: 50px;
+	height: 7px;
+	border-radius: 5px;
+	background-color: var(--color2);
+}
+.section-6-text-right-R4{
+	width: 25px;
+	height: 7px;
+	border-radius: 5px;
+	background-color: var(--color2);
+}
+.section-6-button{
+	width: 120px;
+	height: 30px;
+	border-radius: 20px;
+	background-color: var(--color2);
+}
+
+
+
+
+.section2-6-box-R1{
+	width: 80%;
+	margin:auto;
+}
+.section2-6-text-left-R1
+{
+	width: 60px;
+	height: 12px;
+	border-radius: 5px;
+	background-color: var(--color1);
+}
+.section2-6-text-right-R1{
+	width: 90px;
+	height: 12px;
+	border-radius: 5px;
+	background-color: var(--color1);
+}
+.section2-6-text-left-R2
+{
+	width: 50px;
+	height: 7px;
+	border-radius: 5px;
+	background-color: var(--color1);
+}
+.section2-6-text-right-R2{
+	width: 40px;
+	height: 7px;
+	border-radius: 5px;
+	background-color: var(--color1);
+}
+
+.section2-6-text-left-R3
+{
+	width: 60px;
+	height: 7px;
+	border-radius: 5px;
+	background-color: var(--color1);
+}
+.section2-6-text-right-R3{
+	width: 30px;
+	height: 7px;
+	border-radius: 5px;
+	background-color: var(--color1);
+}
+
+.section2-6-text-left-R4
+{
+	width: 50px;
+	height: 7px;
+	border-radius: 5px;
+	background-color: var(--color1);
+}
+.section2-6-text-right-R4{
+	width: 25px;
+	height: 7px;
+	border-radius: 5px;
+	background-color: var(--color1);
+}
+.section2-6-button{
+	width: 120px;
+	height: 30px;
+	border-radius: 20px;
+	background-color: var(--color1);
+}
+
+footer{
+	width: 100%;
+	overflow: hidden;
+	height: auto;
+	background-color: var(--color2);
+}
+hr{
+	border-color:var(--color1);
+	width: 20%;
+	margin:auto;
+	border-width: 2px
+}
+.footer-item-color{
+	width: 40px;
+	height: 6px;
+	border-radius: 5px;
+	background-color: var(--color1);
+}

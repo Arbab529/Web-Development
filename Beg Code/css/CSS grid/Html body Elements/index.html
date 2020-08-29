@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structure</title>
+    <style>
+        .wrapper {
+            width: 80%;
+            height: 600px;
+            margin: 10px auto;
+            color: white;
+            font-size: 1.3em;
+            padding: 10px;
+            box-sizing: border-box;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 60px 60px 70px auto 60px;
+            grid-gap: 10px 20px;
+        }
+
+        .text {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header {
+            background-color: red;
+            grid-area: 1/1/2/4;
+        }
+
+        .menu {
+            background-color: yellowgreen;
+            grid-area: 2/1/3/4;
+        }
+
+        .box1 {
+            background-color: deepskyblue;
+        }
+
+        .box2 {
+            background-color: deeppink;
+        }
+
+        .content {
+            background-color: rgb(209, 209, 25);
+            grid-area: 4/1/5/3;
+        }
+
+        .sidebar {
+            background-color: orange;
+            grid-area: 3/3/5/4;
+        }
+
+        .footer {
+            background-color: rgb(145, 0, 0);
+            grid-area: 5/1/6/4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="text header">Header</div>
+        <div class="text menu">Menu</div>
+        <div class="text box1">Box 1</div>
+        <div class="text box2">Box 2</div>
+        <div class="text sidebar">Side Bar</div>
+        <div class="text content">Content</div>
+        <div class="text footer">Footer</div>
+    </div>
+</body>
+
+</html>

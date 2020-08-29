@@ -1,0 +1,172 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 10%;
+}
+header{
+    background-color: #151515;
+    color: white;
+}
+header img{
+    float: left;
+}
+header nav ul{
+    float: right;
+    list-style-type: none;
+    font-size: 1.1em;
+}
+header nav ul li{
+    float: left;
+    margin: 25px 20px 0 0;
+}
+header nav ul li span{
+    margin-left: 20px;
+    color: #50b106;
+} 
+
+header:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+/*----------------Header End---------------*/
+.main-banner-section{
+    background: url(images/banner.jpg) no-repeat;
+    background-position: cover;
+    background-size: 100% 100%;
+    height: auto;
+    color: white;
+    
+}
+.main-banner-section .weknow
+{
+    padding:100px 0px;
+    box-sizing: border-box;
+}
+.main-banner-section .weknow h1{
+    font-size: 4em;
+    text-transform: uppercase;
+}
+.main-banner-section .weknow p{
+    width: 50%;
+    font-size: 1.2em;
+    margin-bottom: 60px;
+}
+.main-banner-section .weknow a{
+    text-align: center;
+    background-color: #50b106;
+    border-radius: 5px;
+    padding: 15px 40px;
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;text-transform: uppercase;
+
+}
+/*------------------Banner------------------*/
+.services ul{
+    list-style-type: none;
+    margin-top: 80px;
+}
+.services ul li{
+    float:left;
+    width: 30%;
+    text-align: center;
+}
+.services ul li:nth-child(2){
+    margin: 0 5%;
+}
+.services ul li img{
+    width: 100%;
+}
+.services ul li h2{
+    color: grey;
+    margin: 20px 0px;
+    font-size: 1.7em;
+    
+}
+.services ul li p{
+    color: grey;
+    font-size: 1em;
+    
+}
+.services:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.client-says{
+    text-align: center;
+}
+/**************************************/
+.client-says .line{
+    margin-top: 100px;
+border-top:2px solid rgb(196, 194, 194);
+}
+.client-says .client{
+    background-color: #50b106;
+    padding: 10px 30px;
+    display: inline;
+    border: 20px solid white;
+    color:white;
+    position: relative;
+    top: -10px;
+
+}
+/************************************/
+.blockquote{
+    margin-top: 100px;
+}
+.blockquote:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.blockquote img{
+    float: left;
+}
+.blockquote .quote{
+    float: left;
+    width: 68%;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.blockquote .quote h2{
+    padding-left: 20px;
+    text-indent: -10000px;
+    background: url(images/quote.png) no-repeat;
+
+}
+.blockquote .quote quote{
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    color: grey;
+}
+/*******************/
+.map-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.map-section:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.map-section ul{
+    list-style-type: none;
+}
+.map-section ul li{
+    float: left;
+    width: 33%;
+}
+/*******************************/
+
