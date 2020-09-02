@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide in</title>
+    <style>
+        #left {
+            height: 300px;
+            width: 49%;
+            background: rgb(60, 200, 255);
+            animation-name: animate;
+            animation-duration: 1s;
+            animation-direction: forwards;
+            animation-delay: 0;
+            float: left;
+            border-radius: 100% 0% 50% 50% / 0% 0% 100% 100%;
+            transition: 1s;
+            transform-origin: top left;
+
+        }
+
+        #left:hover {
+            transform: rotate(45deg);
+        }
+
+        #right:hover {
+            transform: rotate(-45deg);
+        }
+
+
+        @keyframes animate {
+            from {
+                transform: translateX(-400px);
+            }
+
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        #right {
+            height: 300px;
+            width: 49%;
+            background: rgb(60, 200, 255);
+            animation-name: animate1;
+            animation-duration: 1s;
+            animation-direction: forwards;
+            animation-delay: 0;
+            float: right;
+            border-radius: 100% 0% 50% 50% / 0% 0% 100% 100%;
+            transition: 1s;
+            transform-origin: top right;
+
+
+        }
+
+        @keyframes animate1 {
+            from {
+                transform: translateX(400px);
+            }
+
+            to {
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0099ff" fill-opacity="1"
+                d="M0,96L36.9,224L73.8,192L110.8,224L147.7,160L184.6,192L221.5,128L258.5,96L295.4,192L332.3,128L369.2,320L406.2,256L443.1,288L480,0L516.9,64L553.8,160L590.8,96L627.7,0L664.6,64L701.5,64L738.5,96L775.4,192L812.3,96L849.2,256L886.2,96L923.1,224L960,96L996.9,96L1033.8,288L1070.8,160L1107.7,224L1144.6,256L1181.5,160L1218.5,160L1255.4,32L1292.3,224L1329.2,160L1366.2,288L1403.1,32L1440,96L1440,0L1403.1,0L1366.2,0L1329.2,0L1292.3,0L1255.4,0L1218.5,0L1181.5,0L1144.6,0L1107.7,0L1070.8,0L1033.8,0L996.9,0L960,0L923.1,0L886.2,0L849.2,0L812.3,0L775.4,0L738.5,0L701.5,0L664.6,0L627.7,0L590.8,0L553.8,0L516.9,0L480,0L443.1,0L406.2,0L369.2,0L332.3,0L295.4,0L258.5,0L221.5,0L184.6,0L147.7,0L110.8,0L73.8,0L36.9,0L0,0Z">
+            </path>
+        </svg></div>
+    <div id="right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0099ff" fill-opacity="1"
+                d="M0,96L36.9,224L73.8,192L110.8,224L147.7,160L184.6,192L221.5,128L258.5,96L295.4,192L332.3,128L369.2,320L406.2,256L443.1,288L480,0L516.9,64L553.8,160L590.8,96L627.7,0L664.6,64L701.5,64L738.5,96L775.4,192L812.3,96L849.2,256L886.2,96L923.1,224L960,96L996.9,96L1033.8,288L1070.8,160L1107.7,224L1144.6,256L1181.5,160L1218.5,160L1255.4,32L1292.3,224L1329.2,160L1366.2,288L1403.1,32L1440,96L1440,0L1403.1,0L1366.2,0L1329.2,0L1292.3,0L1255.4,0L1218.5,0L1181.5,0L1144.6,0L1107.7,0L1070.8,0L1033.8,0L996.9,0L960,0L923.1,0L886.2,0L849.2,0L812.3,0L775.4,0L738.5,0L701.5,0L664.6,0L627.7,0L590.8,0L553.8,0L516.9,0L480,0L443.1,0L406.2,0L369.2,0L332.3,0L295.4,0L258.5,0L221.5,0L184.6,0L147.7,0L110.8,0L73.8,0L36.9,0L0,0Z">
+            </path>
+        </svg></div>
+</body>
+
+</html>

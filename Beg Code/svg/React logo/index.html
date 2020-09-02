@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG React</title>
+    <style>
+        body,
+        html {
+            overflow: hidden;
+        }
+
+        svg:nth-child(odd) {
+            animation: animate ease-in 2s infinite alternate;
+        }
+
+        svg:nth-child(even) {
+            animation: animate ease-in 2s infinite alternate-reverse;
+        }
+
+        .ellipse1 {
+            transform: rotate(60deg);
+        }
+
+        .ellipse2 {
+            transform: rotate(120deg);
+        }
+
+        @keyframes animate {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <svg height="400px" width="400px" viewbox="0 0 200 200">
+        <ellipse cx="100" cy="95" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+        <ellipse class="ellipse1" cx="130" cy="-40" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+        <ellipse class="ellipse2" cx="30" cy="-130" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+
+    </svg>
+    <svg height="400px" width="400px" viewbox="0 0 200 200">
+        <ellipse cx="100" cy="95" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+        <ellipse class="ellipse1" cx="130" cy="-40" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+        <ellipse class="ellipse2" cx="30" cy="-130" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+
+    </svg>
+    <svg height="400px" width="400px" viewbox="0 0 200 200">
+        <ellipse cx="100" cy="95" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+        <ellipse class="ellipse1" cx="130" cy="-40" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+        <ellipse class="ellipse2" cx="30" cy="-130" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+
+    </svg>
+    <svg height="400px" width="400px" viewbox="0 0 200 200">
+        <ellipse cx="100" cy="95" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+        <ellipse class="ellipse1" cx="130" cy="-40" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+        <ellipse class="ellipse2" cx="30" cy="-130" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+
+    </svg>
+    <svg height="400px" width="400px" viewbox="0 0 200 200">
+        <ellipse cx="100" cy="95" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+        <ellipse class="ellipse1" cx="130" cy="-40" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+        <ellipse class="ellipse2" cx="30" cy="-130" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+
+    </svg>
+    <svg height="400px" width="400px" viewbox="0 0 200 200">
+        <ellipse cx="100" cy="95" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+        <ellipse class="ellipse1" cx="130" cy="-40" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+        <ellipse class="ellipse2" cx="30" cy="-130" rx="10" ry="60" stroke="skyblue" fill="transparent"></ellipse>
+
+    </svg>
+</body>
+
+</html>

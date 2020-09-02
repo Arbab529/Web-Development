@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and Drop Shadow</title>
+    <style>
+        *,
+        *::after,
+        *::before {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(3, 85, 139);
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .ball {
+            width: 70px;
+            height: 70px;
+            margin: 0 auto;
+            border-radius: 50%;
+            background-color: rgb(3, 85, 139);
+            filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3)) drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)) drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+            animation-name: animate;
+            animation-duration: 1s;
+            animation-delay: 1s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+
+        }
+
+        @keyframes animate {
+            from {
+                transform: translate(0);
+            }
+
+            to {
+                transform: translateY(-60px);
+            }
+        }
+
+        h1.heading1 {
+            width: 700px;
+            height: auto;
+            margin: 0 auto;
+            padding: 10px 0;
+            box-sizing: border-box;
+            text-align: center;
+            border-radius: 40px;
+            color: white;
+            box-shadow: -3px -3px 2px rgba(255, 255, 255, 0.3),
+                5px 5px 5px rgba(0, 0, 0, 0.2),
+                15px 15px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        h1.heading1 span {
+            font-size: 2em;
+            color: rgb(3, 85, 139);
+            filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3)) drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)) drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+        }
+
+        h1.heading2 {
+            text-align: center;
+            font-size: 5em;
+            color: rgb(3, 85, 139);
+            filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3)) drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)) drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="ball"></div>
+        <h1 class="heading1">
+            <span>Web UI Developer</span>
+        </h1>
+        <h1 class="heading2">Arbab Arain</h1>
+    </div>
+</body>
+
+</html>
