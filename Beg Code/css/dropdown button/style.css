@@ -1,0 +1,42 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x:hidden;
+}
+
+.drop-down-btn{
+    width: 370px;
+    height: 50px;
+    border: 2px solid rgb(59,137,224);
+    border-radius: 50px;
+}
+.clr-left{
+    
+    padding-top: 10px;
+    width: 130px;
+    height: 100%;
+    background: rgb(12,18,180);
+    background: linear-gradient(97deg, #0077EF 0%, #00ACF6 100%);
+    color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.dropdown-toggle{
+    border: none;
+}
+.dropdown-toggle:focus ,.dropdown-toggle:active{
+    outline: none !important;
+    box-shadow: none !important;
+}
+input[type="text"]{
+    width: 180px;
+    margin-top: 10px;
+    border: none;
+    padding:0 10px;
+    outline: none;
+}
+.USD{
+    margin-top: 10px;
+}
