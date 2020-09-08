@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Wave</title>
+    <style>
+        .water {
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .water h1 {
+            font-size: 10em;
+            color: rgba(56, 56, 56, 0.2);
+            background-image: url('wave.png');
+            background-repeat: repeat-x;
+            -webkit-background-clip: text;
+            background-size: cover;
+            animation: animate 15s linear infinite;
+
+        }
+
+        @keyframes animate {
+            0% {
+                background-position: left 0px top 80px;
+            }
+
+            40% {
+                background-position: left 800px top -80px;
+            }
+
+            80% {
+                background-position: left 1600px top -80px;
+            }
+
+            100% {
+                background-position: left 2400px top 80px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="water">
+        <h1>Water</h1>
+    </div>
+</body>
+
+</html>
