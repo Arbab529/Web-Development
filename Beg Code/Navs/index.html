@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAV</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            color: white;
+            background: grey;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            height: 40px;
+            width: 80%;
+            margin: 0 auto;
+            background: rgb(88, 88, 88);
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            /* margin-top: 5px; */
+            position: relative;
+        }
+
+        ul li {
+            width: 100px;
+            background: rgb(39, 39, 39);
+            line-height: 40px;
+            float: left;
+            border-left: 1px solid white;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+
+        ul li:hover {
+            background: crimson;
+        }
+
+        ul ul {
+            display: none;
+            transition: 0.5s;
+        }
+
+        ul ul ul {
+            margin-left: 100px;
+            position: absolute;
+            top: 45px;
+        }
+
+        ul li:hover>ul {
+            display: block;
+            transition: 0.5s;
+        }
+
+        .login {
+            height: 40px;
+            color: rgb(39, 39, 39);
+            background: crimson;
+            width: 150px;
+            font-size: 1.3em;
+            box-sizing: border-box;
+            padding-top: 5px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-items">
+            <ul>
+                <li>Home</li>
+                <li>Item1</li>
+                <li>Item2
+                    <ul>
+                        <li>Item 2.1</li>
+                        <li>Item 2.2
+                            <ul>
+                                <li>Item 2.2.1</li>
+                                <li>Item 2.2.2</li>
+                            </ul>
+                        </li>
+                        <li>Item 2.3</li>
+                    </ul>
+                </li>
+                <li>Item3</li>
+                <li>Item4
+                    <ul>
+                        <li>Item 2.1</li>
+                        <li>Item 2.2
+                            <ul>
+                                <li>Item 2.2.1</li>
+                                <li>Item 2.2.2</li>
+                            </ul>
+                        </li>
+                        <li>Item 2.3</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="login">Login</div>
+    </div>
+</body>
+
+</html>
