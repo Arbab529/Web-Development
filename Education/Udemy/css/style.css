@@ -1,0 +1,161 @@
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+html{ 
+    font-size: 62.5%
+}
+body{ 
+    font-size: 1.6rem;
+}
+:root{
+    --text-color: grey;;
+}
+.navbar-brand img{
+    width: 150px;
+    height: 50px;
+}
+.nav-link{
+    font-size: 1.8rem;
+}
+input[type="search"]{
+    padding: 5px 30px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    width: 450px;
+}
+.sub-header{
+    list-style-type: none;
+    background-color: rgb(221, 217, 217);
+}
+.sub-header li{
+    display: inline;
+    line-height: 70px;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+}
+.lastdate{
+    background: white;
+    width: 520px;
+    height: 200px;
+    position: relative;
+    top: 10%;
+    margin-left: 30px;
+    box-sizing: border-box;
+    padding-top:50px ;
+    padding-left: 20px;
+}
+.banner .container{
+height: 100%;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background: url('https://img-a.udemycdn.com/notices/featured_banner/image_udlite/580792f5-111d-4e5d-8245-67af33a558ce.jpg?SKJfLFc019clXI05v2w8jXRv0RsdqdquK85eMw2iHrmnT3bZfizDq7--XH4KChQujYDa3CwOcUgIpdZ7Un9MfwcbVpUjsm5REZXQqyF2KhEuQP2_eyNhcOHcRbTh8PM-hVgxJU_sLqLJ_E_2I0x0umxZKoH7k-RhxyJHZfzJPJy4g0K71ovmmkw_2OI');
+}
+
+.name h3{
+    text-align: right;
+    color:#0f7c90;
+}
+.name{
+    padding: 20px 0;
+}
+.video-part{
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.videos img{
+    width: 100%;
+    height: 150px;
+    margin-left: -15px;
+    padding: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+.Training button{
+
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+}
+.Training{
+    height: 70px;
+    margin: 50px 0;
+    color: white;
+}
+.Training .container{
+    background:#033942;
+    
+    padding: 20px;
+}
+.right-btns{
+    text-align: right;
+}
+.btn-1{
+
+    background: #048ea7;
+    border: none;
+}
+.btn-2{
+    background: transparent;
+    border: 2px solid white;
+}
+.topics{
+    text-align: center;
+}
+
+.topics .container .d-flex div{
+    border: 2px solid rgb(207, 206, 206);
+    width: 19.8%;
+    line-height: 60px;
+    color: #048ea7;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.topics .container .d-flex div:hover{
+    
+    background: #048ea7;
+    color: white;
+    border: none;
+}
+.topics1 .container .d-flex div{
+    width: 19.8%;
+}
+.topics1 img{
+    width: 100%;
+    height: 150px;
+}
+.topics1 .fas{
+   color: orange;
+}
+.topics1 button{
+    padding: 0 10px;
+    border-radius:50px ;
+    background: rgb(235, 162, 4);
+    border: none;
+    color: white;
+ }
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+}
+footer p{
+    
+    line-height: 80px;
+    font-size: 2rem;
+}
+@media screen and (min-width:500px)
+{
+    header{
+        text-align: center;
+    }
+}
