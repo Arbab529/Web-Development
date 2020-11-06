@@ -1,0 +1,104 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    width:100%;
+    max-width: 1660px;
+    margin: 0 auto;
+}
+header .container{
+    width: 100% !important;
+}
+header nav{
+    
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+
+}
+
+header nav form .search-box{
+    width: 500px !important;
+}
+#category{
+    margin-top: 30px;
+}
+#category h2{
+    color: #045cff;
+}
+
+#category .container .row .card{
+    margin: 2% 0;
+}
+
+#category .container .row .card:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(221, 216, 216, 0.5), 3px 3px 20px rgba(235, 230, 230, 0.8);
+}
+
+#category .container .row .card img{
+    width: 100%;
+}
+
+#category .container .row .card h5{
+    color: #045cff;
+}
+
+#category .container .row .card p{
+    color: #0a1016;
+}
+#category .container .row .card .fa-star{
+    color: #e4b20f;
+}
+
+
+/*-----------shipping page--------------*/
+
+#shipping-form{
+    margin-top: 30px;
+}
+.form-details, .order-summary{
+    margin-bottom: 30px;
+}
+
+#shipping-form .heading{
+    color: #045cff;
+}
+
+#shipping-form .subtotal ,.shipping-fee, .total-amount{
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery-option > label{
+    margin-right: 30px;
+}
+
+.delivery-option label,.inputDeliverylabel{
+    cursor: pointer;
+}
+
+.save-btn{
+    width: 150px;
+}
+
+.proceed-btn{
+    width: 100%;
+}
+
+
+
+@media screen and (max-width : 1015px){
+    header nav form .search-box{
+        
+        width: 250px !important;
+    }
+}
+@media screen and (max-width : 530px){
+    header nav form .search-box{
+        
+        width: 100% !important;
+    }
+}

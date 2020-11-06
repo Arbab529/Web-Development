@@ -1,0 +1,118 @@
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{ 
+    overflow-x: hidden;
+}
+body{ 
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+} 
+html{ 
+    font-size: 62.5%
+}
+.image{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+    transform: scale(0.6);
+    transition: transform .5s, filter 1.0s ease-in-out;
+  filter: grayscale(100%);
+}
+.image:hover img{
+filter: grayscale(0);
+  transform: scale(1);
+}
+.productname{
+    font-size: 2rem;
+}
+i{
+    font-size: 1.8rem;
+}
+.fa-star{
+    color: rgb(255, 217, 0);
+}
+.fa-share-alt,.fa-heart{
+    font-size: 2.3rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.fa-share-alt:hover{
+     color: #045cff;
+}
+.fa-heart:hover{
+    color: red;
+}
+.price{
+    color: #045cff;
+    font-size: 4rem;
+}
+.strike{
+    color: rgb(168, 168, 168);
+    
+}
+.strikeheight{
+    margin-top:-8px;
+}
+.decrease,.increase{
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+.decrease:hover,.increase:hover{
+  background: rgb(141, 141, 141);
+}
+.buy{
+    width: 100%;
+    height: 45px;
+    border: none;
+    background:#045cff;
+    color: white;
+    transition: 0.5s;
+    opacity: 0.8;
+}
+.buy:hover{
+    opacity: 1;color: white;
+}
+.addtocart:hover{
+    opacity: 1;color: white;
+}
+.addtocart{
+    width: 100%;
+    height: 45px;
+    border: none;
+    background: #0A1016;
+    color: white;
+    transition: 0.5s;
+    opacity: 0.8;
+
+}
+.return-head{
+font-size: 2rem;
+}
+.right i{
+    color: #a3a3a3;
+}
+
+.right ul{
+    list-style-type: none;
+}
+.right ul li{
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+
+.right h4{
+    text-align: center;
+}
