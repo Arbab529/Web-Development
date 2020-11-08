@@ -1,9 +1,0 @@
-$(document).ready(function(){
-    $('h1').addClass('red');
-    $('h1').on('mouseenter',function(){
-        $('h1').slideUp(2000);
-    })
-    $('h1').on('mouseleave',function(){
-        $('h1').slideDown(2000);
-    })
-});

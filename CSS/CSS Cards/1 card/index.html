@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+
+    <style>
+        *,
+        *::after,
+        *::before {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(42, 42, 42);
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .container .card {
+            position: relative;
+            max-width: 300px;
+            height: 200px;
+            text-align: center;
+            background: white;
+            margin-top: 40px;
+            transition: 0.3s;
+        }
+
+        .container .card:hover {
+            height: 360px;
+
+        }
+
+        .container .image {
+            position: relative;
+            width: 90%;
+            margin: 0 auto;
+            top: -20px;
+            z-index: 1;
+            box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .container .image img {
+            width: 100%;
+
+        }
+
+        .container .card .content {
+            position: relative;
+            width: 80%;
+            margin: -120px auto 0 auto;
+            padding: 10px 0 20px 0;
+            visibility: hidden;
+            transition: 0.3s ease-in-out;
+        }
+
+        .container .card:hover .content {
+
+            visibility: visible;
+            transition-delay: 0.4s;
+            opacity: 1s;
+            margin-top: 0;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="card">
+            <div class="image">
+                <img src="img/img1.jpg" alt="Image">
+            </div>
+            <div class="content">
+                <h1>Arbab Arain</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, dolore! Perferendis odio voluptates
+                    iusto nostrum repudiandae facilis rem, repellendus</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img src="img/img2.jpg" alt="Image">
+            </div>
+            <div class="content">
+                <h1>Zain Khan</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, dolore! Perferendis odio voluptates
+                    iusto nostrum repudiandae facilis rem, repellendus</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img src="img/img3.jpg" alt="Image">
+            </div>
+            <div class="content">
+                <h1>Rana Hamza</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, dolore! Perferendis odio voluptates
+                    iusto nostrum repudiandae facilis rem, repellendus</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

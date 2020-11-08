@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form </title>
+    <link rel="icon"  href="Title.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <Script src="JS/JQuery.js" type="text/javascript"></Script>
+    <Script src="JS/animation.js" type="text/javascript"></Script>
+    <Script src="JS/validation.js" type="text/javascript"></Script>
+</head>
+<body>
+
+<form name="myform" onsubmit="return ValidateForm()">
+	<ul>
+		<li class="title">Who Are You</li>
+		<li class="fields">
+			<label>First Name <span>*</span> </label><br>
+			<input type="text" id="First_Name" class="req">
+			<br>
+			<label>Middle Name</label><br>
+			<input type="text" id="Middle">
+			<br>
+			<label>Last Name</label><br>
+			<input type="text" id="Last_Name">
+			<br>
+			<label>Email <span>*</span> </label><br>
+			<input type="email" id="Email" class="req">
+		</li>
+		<li class="title">Where Are You</li>
+		<li class="fields">
+			<label>City</label><br>
+			<input type="text" id="city">
+			<br>
+			<label>State <span>*</span> </label><br>
+			<input type="text" id="State" class="req">
+			<br>
+			<label>Country</label><br>
+			<input type="text" id="Country" >
+		</li>
+		<li class="title">What Do You Do</li>
+		<li class="fields">
+			<label>Occupation <span>*</span> </label><br>
+			<input type="text" id="Occupation">
+			<br>
+			<label>Company </label><br>
+			<input type="text" id="Company" class="req">
+			<br>
+			<label>Company Location </label><br>
+			<input type="text" id="location" >
+		</li>
+	</ul>
+	<input type="submit" value="Submit Form">
+</form>
+
+
+    
+</body>
+</html>
