@@ -1,4 +1,7 @@
-let a = 30;
-const b = 10;
-console.log(`${a}`);
-console.log(`${b}`);
+
+
+const fullName = (name, age) => {
+    const Fname = `${name} ${age}`;
+    return console.log(`${Fname}`);
+}
+fullName("Arbab", 19);
