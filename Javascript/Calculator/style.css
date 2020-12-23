@@ -1,0 +1,55 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 300px;
+    margin: 0 auto;
+    background: rgb(29, 29, 29);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 50px 5px orange;
+    
+}
+button{
+    height: 40px;
+    border: none;
+}
+.btn{
+    background: orange;
+}
+#input{
+    width: 100%;
+    border: none;
+    background: rgb(49, 49, 49);
+    height: 50px;
+    font-size: 30px;
+    color: white;
+}
+#clear{
+    width: 100%;
+    background: white;
+}
+.resultBtn{
+    background: white;
+    width: 23%;
+    margin-left: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn{
+    width: 23%;
+    margin: 1.2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.zerobtn{
+    width: 49%;
+    font-size: 20px;
+    font-weight: bold;
+}
+div{
+    text-align: center;
+}
