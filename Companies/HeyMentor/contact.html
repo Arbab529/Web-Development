@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Foodmart</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="" href="img/tabicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/brands.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="contact.css">
+
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container pt-2">
+			<a class="navbar-brand" href="#"><i class="fas fa-dice-d20"></i> FOODMART</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="deals.html">Deals</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact Us</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<button class="btn btn-outline-success my-2 my-sm-0">Order Now</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+	<main>
+
+		<div class="row contact">
+			<div class="col-md-6 mx-auto p-0">
+				<div class="card">
+					<div class="login-box">
+						<div class="login-snip"> <input id="tab-1" type="radio" name="tab" class="sign-in"
+								checked><label for="tab-1" class="tab">Login</label> <input id="tab-2" type="radio"
+								name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+							<div class="login-space">
+								<div class="login">
+									<div class="group"> <label for="user" class="label"
+											style="color: white;">Username</label> <input id="user" type="email"
+											class="input" placeholder="Enter your email" required>
+									</div>
+									<div class="group"> <label for="pass" class="label"
+											style="color: white;">Password</label> <input id="pass" type="password"
+											class="input" data-type="password" placeholder="Enter your password"
+											required> </div>
+									<div class="group"> <input id="check" type="checkbox" class="check" checked> <label
+											for="check" style="color: white;"><span class="icon"></span> Keep me Signed
+											in</label> </div>
+									<div class="group"> <input type="submit" class="button" value="Sign In"> </div>
+									<div class="hr"></div>
+									<div class="foot"> <a href="#">Forgot Password?</a> </div>
+								</div>
+								<div class="sign-up-form">
+									<div class="group"> <label class="label" style="color: white;">Email
+											Address</label> <input id="username" type="text" class="input"
+											placeholder="Enter your email address">
+										<span id="emailerror"></span>
+									</div>
+									<div class="group"> <label class="label" style="color: white;">Password</label>
+										<input id="newpassword" type="password" class="input" data-type="password"
+											placeholder="Create your password">
+										<span id="Passworderror"></span>
+									</div>
+									<div class="group"> <label class="label" style="color: white;">Repeat
+											Password</label> <input id="confirmpassword" type="password" class="input"
+											data-type="password" placeholder="Repeat your password"> </div>
+									<span id="confirmpassworderror"></span>
+
+									<div class="group"> <input type="submit" class="button" value="Sign Up"
+											onclick="formValidation()"> </div>
+									<div class="hr"></div>
+									<div class="foot"> <label for="tab-1">Already Member?</label> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-6">
+					<h4>FOODMART</h4>
+					<ul>
+						<li><i class="fas fa-tablet-alt"></i> Help Center</li>
+						<li><i class="fas fa-spell-check"></i> English (international)</li>
+						<li><i class="fas fa-location-arrow"></i> Karachi, Pakistan</li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-6">
+					<h4>Services</h4>
+					<ul>
+						<li>Create a Jobs</li>
+						<li>Find a Developer</li>
+						<li>Translations</li>
+						<li>Business Demands</li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-6">
+					<h4>About us</h4>
+					<ul>
+						<li>News Room</li>
+						<li>Investor Relation</li>
+						<li>Blog</li>
+						<li>Careers</li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-6">
+					<h4>Information</h4>
+					<ul>
+						<li>For Clients</li>
+						<li>For Developers</li>
+						<li>Payment</li>
+						<li>legal</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<div class="row text-center text-lg-left">
+				<div class="col-lg-4 ">&copy; FOODMART | Arbab Arain</div>
+				<div class="col-lg-4 footer-bottom-bar-items ">
+					<ul class="bottom-bar d-flex justify-lg-content-between justify-content-center mt-lg-0 mt-sm-4">
+						<li><a>Privacy</a></li>
+						<li><a>Accessibility</a></li>
+						<li><a>Terms</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 d-flex justify-lg-content-end justify-content-center">
+					<a><i class="fab fa-facebook-f"></i></a>
+					<a><i class="fab fa-instagram"></i></a>
+					<a><i class="fab fa-twitter"></i></a>
+					<a><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
